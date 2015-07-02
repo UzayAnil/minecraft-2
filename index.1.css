@@ -23,6 +23,11 @@ body {
   width: 100px;
 }
 
+.mansion {
+  width:100px; 
+  
+}
+
 .head_title {
   font-family: Calibri;
   border-style:solid;
@@ -41,4 +46,7 @@ body {
   width: 300px
 }
 
+.dragon {
+  width:300px;
+}
 
