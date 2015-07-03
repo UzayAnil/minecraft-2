@@ -50,3 +50,26 @@ body {
   width:300px;
 }
 
+th, td {
+    border: 3px solid black;
+}
+
+table {
+  border-collapse:collapse;
+  
+}
+tr:hover {
+  background-color: green;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.redstone {
+  width: 100px;
+  word-wrap: break-word;
+}
+.picture {
+  width:200px;
+}
