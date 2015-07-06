@@ -11,7 +11,7 @@ h1 {
 }
 
 body {
-  background-image:url(http://wallpaper-download.net/wallpapers/styles/1366x768/public/game-wallpapers-minecraft-landscape-wallpaper-30781.png?itok=2cS4gY1s);
+  background-image: url("http://emoticonswallpapers.com/background/pattern/background-pattern-007.jpg");
 ;
 }
 
@@ -27,11 +27,10 @@ body {
   font-family: Calibri;
   border-style:solid;
   border-width: 5;
-  
 }
 
 .wallpaper {
-  width: 400px;
+  width: 500px;
   position:static;
 }
 
@@ -49,12 +48,11 @@ body {
 
 .trailer {
   width:500;
-  padding:10px;
 }
 
 .picture_title {
   
-  width: 160px;
+  width: 200;
   margin:0 auto;
 }
 
@@ -70,7 +68,7 @@ nav a:hover{
 
 
 body li:hover{
-  color: black;
+  color: #0066FF;
 }
 
 div {
@@ -86,8 +84,19 @@ nav li a {
   font-weight: 900;
 }
 
+
+
+
+
+
+
+
+body {
+    background-image:url(http://wallpaper-download.net/wallpapers/styles/1366x768/public/game-wallpapers-minecraft-landscape-wallpaper-30781.png?itok=2cS4gY1s);
+}
+
 .heading-background {
   background-image: url(http://i.imgur.com/SWQZQSN.png);
   background-size: 100px 100px;
+  
 }
-
