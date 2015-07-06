@@ -11,8 +11,8 @@ h1 {
 }
 
 body {
-  background-image:url(http://wallpaper-download.net/wallpapers/styles/1366x768/public/game-wallpapers-minecraft-landscape-wallpaper-30781.png?itok=2cS4gY1s);
-   background-size:cover;
+  background-image: url("http://emoticonswallpapers.com/background/pattern/background-pattern-007.jpg");
+;
 }
 
 .catbread {
@@ -41,9 +41,7 @@ body {
 .container {
     width: 960px;
     margin: 0 auto;
-    text-decoration:none;
-    background-image:url("http://emoticonswallpapers.com/background/pattern/background-pattern-007.jpg");
-    padding: 20px;
+    text-decoration: none;
 }
 
 .mansion {
@@ -71,10 +69,10 @@ tr:hover {
 }
 
 .redstone {
-  width:100px;
+  width: 100px;
   word-wrap: break-word;
 }
-.picture_title {
+.picture {
   width:200px;
 }
 
@@ -90,7 +88,7 @@ nav a:hover{
 
 nav li a{
   text-decoration: none;
-  color:  #0066FF;
+  color: black;
 }
 
 div {
@@ -98,12 +96,7 @@ div {
   
 }
 
-.heading-background {
-  background-image: url(http://i.imgur.com/SWQZQSN.png);
-  background-size: 100px 100px;
+.picture_title {
+  width: 250px;
+  margin:0 auto;
 }
-
-.picture {
-  width:200;
-}
-
