@@ -1,0 +1,112 @@
+h1 {
+  text-align: center;
+} 
+
+.burger {
+  width: 100px;
+}
+
+.bread {
+  width: 100px;
+}
+
+body {
+  background-image:url(http://wallpaper-download.net/wallpapers/styles/1366x768/public/game-wallpapers-minecraft-landscape-wallpaper-30781.png?itok=2cS4gY1s);
+   background-size:cover;
+}
+
+.catbread {
+  width:100px;
+}
+
+.dog {
+  width: 100px;
+}
+
+.mansion {
+  width:100px; 
+  
+}
+
+.head_title {
+  font-family: Calibri;
+  border-style:solid;
+  border-width: 5;
+}
+
+.wallpaper {
+  width: 400px;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    text-decoration:none;
+    background-image:url("http://emoticonswallpapers.com/background/pattern/background-pattern-007.jpg");
+    padding: 20px;
+}
+
+.mansion {
+  width: 300px
+}
+
+.dragon {
+  width:300px;
+}
+
+th, td {
+    border: 3px solid black;
+}
+
+table {
+  border-collapse:collapse;
+  
+}
+tr:hover {
+  background-color: #3366FF;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.redstone {
+  width:100px;
+  word-wrap: break-word;
+}
+.picture_title {
+  width:200px;
+}
+
+nav li {
+    display: inline;
+    text-align: center;
+}
+
+nav a:hover{
+  color: red
+   ;
+}
+
+nav li a{
+  text-decoration: none;
+  color:  #0066FF;
+}
+
+div {
+  text-decoration: none;
+  
+}
+
+.heading-background {
+  background-image: url(http://i.imgur.com/SWQZQSN.png);
+  background-size: 100px 100px;
+}
+
+.picture {
+  width:200;
+}
+
+.mob-pics {
+  width:50%;
+}
