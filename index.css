@@ -64,13 +64,13 @@ nav li {
 }
 
 nav a:hover{
-  color: red
+  color: #A97D5D
    ;
 }
 
 
 body li:hover{
-  color: black;
+  color: #0066FF;
 }
 
 div {
@@ -79,7 +79,7 @@ div {
 
 nav li a {
     text-decoration: none;
-    color: #0066FF;
+    color: #5C755E;
 }
 
 .active {
@@ -91,3 +91,15 @@ nav li a {
   background-size: 100px 100px;
 }
 
+.fade {
+  position: fixed;
+  top:0;
+  right:0;
+  left:0;
+  margin-left: auto;
+  margin-right:auto;
+  width:auto;
+  height:50px;
+  text-align:center;
+  background-color:#F7DCB4;
+}
