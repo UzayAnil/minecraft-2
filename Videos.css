@@ -11,8 +11,9 @@ h1 {
 }
 
 body {
-  background-image: url("http://emoticonswallpapers.com/background/pattern/background-pattern-007.jpg");
+  background-image: url("school.png");
 ;
+background-size: cover;
 }
 
 .catbread {
@@ -62,7 +63,7 @@ nav li {
 }
 
 nav a:hover{
-  color: red
+  color:  #A97D5D
    ;
 }
 
@@ -77,7 +78,7 @@ div {
 
 nav li a {
     text-decoration: none;
-    color: #0066FF;
+    color: #5C755E;
 }
 
 .active {
@@ -99,4 +100,44 @@ body {
   background-image: url(http://i.imgur.com/SWQZQSN.png);
   background-size: 100px 100px;
   
+}
+
+th, td {
+    border: 3px solid black;
+}
+
+table {
+  border-collapse:collapse;
+  
+}
+tr:hover {
+  background-color: #3366FF;
+}
+
+iframe {
+  float:left;
+}
+
+.content {
+  float:right;
+}
+
+
+.fade {
+  position: fixed;
+  top:0;
+  right:0;
+  left:0;
+  margin-left: auto;
+  margin-right:auto;
+  width:auto;
+  height:50px;
+  text-align:center;
+  background-color:#F7DCB4;
+}
+
+.container {
+  border-style:solid;
+  border-bottom-width:500px;
+  border-color:transparent;
 }
