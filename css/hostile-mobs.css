@@ -230,3 +230,7 @@ nav li a {
 .sub-menu li a:hover, .sub-menu .current-item a {
     background:#00664c;
 }
+
+.table {
+  margin:0 auto;
+}
