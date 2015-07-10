@@ -138,6 +138,9 @@ nav li a {
     background-color:#00CC66;
     position:fixed;
     opacity: 0.90;
+    top:0;
+    right:0;
+    left:0;
 }
  
 .menu {
