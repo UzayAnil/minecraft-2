@@ -35,12 +35,13 @@ body {
   position:static;
 }
 
-.container {
+section {
     width: 960px;
     margin: 0 auto;
     text-decoration:none;
     background-image:url("http://emoticonswallpapers.com/background/pattern/background-pattern-007.jpg");
     padding: 20px;
+
 }
 .mansion {
   width: 300px
@@ -115,6 +116,7 @@ nav li a {
     box-shadow:0px 1px 3px rgba(0,0,0,0.2);
     background-color:#00CC66;
     position:fixed;
+      opacity: 0.90;
 }
  
 .menu {

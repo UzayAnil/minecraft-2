@@ -11,9 +11,8 @@ h1 {
 }
 
 body {
-  background-image: url("school.png");
-;
-background-size: cover;
+  background-image:url(http://wallpaper-download.net/wallpapers/styles/1366x768/public/game-wallpapers-minecraft-landscape-wallpaper-30781.png?itok=2cS4gY1s);
+   background-size:cover;
 }
 
 .catbread {
@@ -24,6 +23,11 @@ background-size: cover;
   width: 100px;
 }
 
+.mansion {
+  width:100px; 
+  
+}
+
 .head_title {
   font-family: Calibri;
   border-style:solid;
@@ -31,56 +35,23 @@ background-size: cover;
 }
 
 .wallpaper {
-  width: 500px;
-  position:static;
+  width: 400px;
 }
 
-.container {
+section {
     width: 960px;
     margin: 0 auto;
     text-decoration:none;
     background-image:url("http://emoticonswallpapers.com/background/pattern/background-pattern-007.jpg");
     padding: 20px;
 }
+
 .mansion {
   width: 300px
 }
 
-
-.trailer {
-  width:500;
-}
-
-.picture_title {
-  
-  width: 200;
-  margin:0 auto;
-}
-
-nav li {
-    display: inline;
-    text-align: center;
-}
-
-.active {
-  font-weight: 900;
-}
-
-
-
-
-
-
-
-
-body {
-    background-image:url(http://wallpaper-download.net/wallpapers/styles/1366x768/public/game-wallpapers-minecraft-landscape-wallpaper-30781.png?itok=2cS4gY1s);
-}
-
-.heading-background {
-  background-image: url(http://i.imgur.com/SWQZQSN.png);
-  background-size: 100px 100px;
-  
+.dragon {
+  width:300px;
 }
 
 th, td {
@@ -95,20 +66,58 @@ tr:hover {
   background-color: #3366FF;
 }
 
-iframe {
-  float:left;
+.active {
+  font-weight: bold;
 }
 
-.content {
-  float:right;
+.redstone {
+  width:100px;
+  word-wrap: break-word;
+}
+.picture_title {
+  width:200px;
 }
 
+nav li {
+    display: inline;
+    text-align: center;
+}
+
+nav a:hover{
+  color:  #A97D5D
+   ;
+}
+
+
+body li:hover{
+  color: #0066FF;
+}
+
+div {
+    text-decoration:none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #5C755E;
+  
+}
+
+.heading-background {
+  background-image: url(http://i.imgur.com/SWQZQSN.png);
+  background-size: 100px 100px;
+}
+
+.picture {
+  width:200;
+}
 
 .fade {
   position: fixed;
-  top:0;
+  top:0px;
   right:0;
   left:0;
+  top:0;
   margin-left: auto;
   margin-right:auto;
   width:auto;
@@ -128,12 +137,13 @@ iframe {
     box-shadow:0px 1px 3px rgba(0,0,0,0.2);
     background-color:#00CC66;
     position:fixed;
+    opacity: 0.90;
 }
  
 .menu {
     width:10000px;
     margin:0px auto;
-
+    background-color:blue;
 }
  
 .menu li {
@@ -205,3 +215,4 @@ iframe {
 .sub-menu li a:hover, .sub-menu .current-item a {
     background:#00664c;
 }
+
