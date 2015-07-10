@@ -1,0 +1,7 @@
+@media screen and (max-width: 309px) {
+    li a {
+        background-color: lightblue;
+        font-size:4em;
+        color:red;
+    }
+}
