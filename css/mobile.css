@@ -1,7 +1,11 @@
-@media screen and (max-width: 309px) {
+@media screen and (max-width: 409px) {
     li a {
         background-color: lightblue;
-        font-size:4em;
+        font-size:1em;
         color:red;
+  
     }
+    .menu > ul > li > a {
+    padding:1px 5px;}
+
 }
