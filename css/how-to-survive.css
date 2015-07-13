@@ -403,3 +403,8 @@ nav li a {
 .table {
   margin: 0 auto;
 }
+
+.custom {
+  cursor: url(http://36.media.tumblr.com/6637f047930609f1e50dba10797db93c/tumblr_mg2flhYthJ1s2q1hro1_400.png), auto;
+  
+}
