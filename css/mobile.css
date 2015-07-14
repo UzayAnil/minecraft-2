@@ -2,7 +2,8 @@
     .menu > ul > li > a {
     padding:1px 5px;
     background-color: lightblue;
-    font-size:1.5em;
+    height:8;
+    font-size:75%;
     }
 nav li {
     display: block;
@@ -116,6 +117,7 @@ nav li a {
     transition:opacity linear 0.15s;
     box-shadow:0px 2px 3px rgba(0,0,0,0.2);
     background:#00CC66;
+    
 }
  
 .sub-menu li {
@@ -130,6 +132,14 @@ nav li a {
 .sub-menu li a:hover, .sub-menu .current-item a {
     background:#00664c;
 }
-
-
+.container {
+    width:375px;
+}
+img {
+    width:50px;
+}
+.trailer {
+    width:175;
+    height:150;
+}
 }
