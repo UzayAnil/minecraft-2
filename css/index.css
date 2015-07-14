@@ -2,27 +2,13 @@ h1 {
   text-align: center;
 } 
 
-.burger {
-  width: 100px;
-}
-
-.bread {
-  width: 100px;
-}
-
 body {
   background-image:url(http://wallpaper-download.net/wallpapers/styles/1366x768/public/game-wallpapers-minecraft-landscape-wallpaper-30781.png?itok=2cS4gY1s);
 ;
 background-size:cover;
 }
 
-.catbread {
-  width:100px;
-}
 
-.dog {
-  width: 100px;
-}
 
 .head_title {
   font-family: Calibri;
