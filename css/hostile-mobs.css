@@ -184,6 +184,7 @@ nav li a {
 .menu li:hover > a, .menu .current-item > a {
     text-decoration:none;
     color:#4db8b8;
+    font-weight: 900;
 }
  
 .menu .arrow {
@@ -252,4 +253,10 @@ nav li a {
 .back {
   text-decoration:none;
   color:#00664C;
+}
+
+aside img {
+    background-color:#046380;
+    border-style:solid;
+    border-radius:50%;
 }

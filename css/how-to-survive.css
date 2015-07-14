@@ -24,11 +24,7 @@ body {
   width: 100px;
 }
 
-.head_title {
-  font-family: Calibri;
-  border-style:solid;
-  border-width: 5;
-}
+
 
 .wallpaper {
   width: 500px;
@@ -41,6 +37,11 @@ section {
     text-decoration:none;
     background-image:url("http://emoticonswallpapers.com/background/pattern/background-pattern-007.jpg");
     padding: 20px;
+     border-style:solid;
+    border-color:transparent;
+    border-bottom:300px;
+    font-family:comfortaa;
+ 
 }
 .mansion {
   width: 300px
@@ -52,8 +53,7 @@ section {
 }
 
 .picture_title {
-  
-  width: 200;
+  width: 160px;
   margin:0 auto;
 }
 
@@ -75,7 +75,10 @@ body li:hover{
 div {
     text-decoration:none;
 }
-
+.heading-background {
+  background-image: url(http://i.imgur.com/SWQZQSN.png);
+  background-size: 100px 100px;
+}
 nav li a {
     text-decoration: none;
     color: #5C755E;
@@ -255,11 +258,6 @@ background-size:cover;
   width:500;
 }
 
-.picture_title {
-  
-  width: 200;
-  margin:0 auto;
-}
 
 nav li {
     display: inline;
@@ -337,6 +335,7 @@ nav li a {
 .menu li:hover > a, .menu .current-item > a {
     text-decoration:none;
     color:#4db8b8;
+    font-weight: 900;
 }
  
 .menu .arrow {
@@ -407,4 +406,10 @@ nav li a {
 .custom {
   cursor: url(http://36.media.tumblr.com/6637f047930609f1e50dba10797db93c/tumblr_mg2flhYthJ1s2q1hro1_400.png), auto;
   
+}
+
+aside img {
+    background-color:#046380;
+    border-style:solid;
+    border-radius:50%;
 }

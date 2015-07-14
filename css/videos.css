@@ -64,11 +64,14 @@ section {
 }
 
 .picture_title {
-  
-  width: 200;
+  width: 160px;
   margin:0 auto;
 }
-
+.head_title {
+  font-family: Calibri;
+  border-style:solid;
+  border-width: 5;
+}
 nav li {
     display: inline;
     text-align: center;
@@ -115,7 +118,20 @@ iframe {
 .content {
   float:right;
 }
-
+.container {
+    width: 960px;
+    margin: 0 auto;
+    text-decoration:none;
+    background-image:url("http://emoticonswallpapers.com/background/pattern/background-pattern-007.jpg");
+    padding: 20px;
+}
+div {
+    text-decoration:none;
+}
+nav li a {
+    text-decoration: none;
+    color: #5C755E;
+}
 
 .fade {
   position: fixed;
@@ -165,6 +181,7 @@ iframe {
 .menu li:hover > a, .menu .current-item > a {
     text-decoration:none;
     color:#4db8b8;
+    font-weight: 900;
 }
  
 .menu .arrow {
@@ -224,4 +241,10 @@ iframe {
 
 p {
   font-family:"Comic Sans MS";
+}
+
+aside img {
+    background-color:#046380;
+    border-style:solid;
+    border-radius:50%;
 }

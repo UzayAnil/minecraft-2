@@ -4,7 +4,6 @@ h1 {
 
 body {
   background-image:url(http://wallpaper-download.net/wallpapers/styles/1366x768/public/game-wallpapers-minecraft-landscape-wallpaper-30781.png?itok=2cS4gY1s);
-;
 background-size:cover;
 }
 
@@ -70,10 +69,6 @@ nav li a {
     color: #5C755E;
 }
 
-.active {
-  font-weight: 900;
-}
-
 .heading-background {
   background-image: url(http://i.imgur.com/SWQZQSN.png);
   background-size: 100px 100px;
@@ -128,6 +123,7 @@ nav li a {
 .menu li:hover > a, .menu .current-item > a {
     text-decoration:none;
     color:#4db8b8;
+    font-weight: 900;
 }
  
 .menu .arrow {
@@ -187,4 +183,10 @@ nav li a {
 body {
   cursor: url(http://36.media.tumblr.com/6637f047930609f1e50dba10797db93c/tumblr_mg2flhYthJ1s2q1hro1_400.png), auto;
   
+}
+
+aside img {
+    background-color:#046380;
+    border-style:solid;
+    border-radius:50%;
 }
