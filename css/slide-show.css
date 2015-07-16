@@ -1,0 +1,126 @@
+h1 {
+  text-align: center;
+} 
+
+body {
+  background-image:url(http://wallpaper-download.net/wallpapers/styles/1366x768/public/game-wallpapers-minecraft-landscape-wallpaper-30781.png?itok=2cS4gY1s);
+background-size:cover;
+}
+
+
+
+.head_title {
+  font-family: Calibri;
+  border-style:solid;
+  border-width: 5;
+  
+}
+
+.wallpaper {
+  width: 400px;
+  position:static;
+}
+
+section {
+    width: 960px;
+    margin: 0 auto;
+    text-decoration:none;
+    background-image:url("http://emoticonswallpapers.com/background/pattern/background-pattern-007.jpg");
+    padding: 20px;
+
+}
+.mansion {
+  width: 300px
+}
+
+
+.trailer {
+  width:500;
+  padding:10px;
+}
+
+
+
+
+
+.heading-background {
+  background-image: url(http://i.imgur.com/SWQZQSN.png);
+  background-size: 100px 100px;
+}
+
+
+
+body {
+  cursor: url(http://36.media.tumblr.com/6637f047930609f1e50dba10797db93c/tumblr_mg2flhYthJ1s2q1hro1_400.png), auto;
+  
+}
+
+aside img {
+    background-color:#046380;
+    border-style:solid;
+    border-radius:50%;
+}
+
+#carousel {
+    width:855px;
+    height:550px;    
+    margin:8px auto;
+}
+#slides {
+    overflow:hidden;
+    /* fix ie overflow issue */
+    position:relative;
+    width:850px;
+    height:450px;
+
+}
+/* remove the list styles, width : item width * total items */    
+#slides ul {
+    position:relative;
+    left:0;
+    top:0;
+    list-style:none;
+    margin:0;
+    padding:0;    
+    width:1750px;            
+}
+/* width of the item, in this case I put 250x250x gif */
+#slides li {
+    width:850px;
+    height:450px;    
+    float:left;
+}
+#slides li img {
+    padding:5px;
+}
+/* Styling for prev and next buttons */
+#buttons {
+    padding:0 0 5px 0;  
+    position:absolute;
+    left: 50%;	
+  margin-left: -490px;
+    
+
+}
+#buttons a {
+    display:block; 
+    width:31px; 
+    height:32px;
+    text-indent:-999em;
+    float:left;
+    outline:0;
+
+}
+a#prev {
+    background:url("../images/arrow.gif") 0 -31px no-repeat; 
+}
+a#prev:hover {
+    background:url("../images/arrow.gif") 0 0 no-repeat;
+}
+a#next {
+    background:url("../images/arrow.gif") -32px -31px no-repeat; 
+}
+a#next:hover {
+    background:url("../images/arrow.gif") -32px 0 no-repeat;
+}
+.clear {clear:both}
