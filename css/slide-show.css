@@ -62,8 +62,8 @@ aside img {
 }
 
 #carousel {
-    width:855px;
-    height:550px;    
+    width:850px;
+    height:450px;    
     margin:8px auto;
 }
 
@@ -72,7 +72,7 @@ aside img {
     position:relative;
     width:850px;
     height:450px;
-
+    margin:0px auto;
 }
 
 #slides ul {
