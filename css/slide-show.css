@@ -66,15 +66,15 @@ aside img {
     height:550px;    
     margin:8px auto;
 }
+
 #slides {
     overflow:hidden;
-    /* fix ie overflow issue */
     position:relative;
     width:850px;
     height:450px;
 
 }
-/* remove the list styles, width : item width * total items */    
+
 #slides ul {
     position:relative;
     left:0;
@@ -84,12 +84,13 @@ aside img {
     padding:0;    
     width:1750px;            
 }
-/* width of the item, in this case I put 250x250x gif */
+
 #slides li {
     width:850px;
     height:450px;    
     float:left;
 }
+
 #slides li img {
     padding:5px;
 }
@@ -98,7 +99,7 @@ aside img {
     padding:0 0 5px 0;  
     position:absolute;
     left: 50%;	
-  margin-left: -490px;
+    margin-left: -490px;
     
 
 }
@@ -111,16 +112,21 @@ aside img {
     outline:0;
 
 }
-a#prev {
+
+#prev {
     background:url("../images/arrow.gif") 0 -31px no-repeat; 
 }
-a#prev:hover {
+
+#prev:hover {
     background:url("../images/arrow.gif") 0 0 no-repeat;
 }
-a#next {
+
+#next {
     background:url("../images/arrow.gif") -32px -31px no-repeat; 
 }
-a#next:hover {
+
+#next:hover {
     background:url("../images/arrow.gif") -32px 0 no-repeat;
 }
+
 .clear {clear:both}
